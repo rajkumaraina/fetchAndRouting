@@ -1,0 +1,45 @@
+.link {
+  text-decoration: none;
+}
+.listItem {
+  display: flex;
+  border: 1px solid #8e8e8e;
+  border-radius: 4px;
+
+  padding: 15px;
+}
+@media (max-width: 576px) {
+  .listItem {
+    flex-direction: column;
+    margin: 8px;
+  }
+}
+
+.imgInBlogItem {
+  width: 255px;
+  height: 155px;
+}
+.topic {
+  color: #d3d3d3;
+}
+.title {
+  color: #000000;
+  text-decoration: none;
+
+  font-size: 18px;
+}
+.topicContainer {
+  margin: 8px;
+}
+
+.authorContainer {
+  display: flex;
+
+  align-items: center;
+}
+.authorImg {
+  width: 35px;
+  height: 35px;
+  border-radius: 35px;
+  margin: 8px;
+}

@@ -1,0 +1,26 @@
+.eachBlogContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.each {
+  width: 75%;
+}
+
+.eachBlogHeading {
+  color: #000000;
+  text-align: center;
+}
+.eachBlogImg {
+  width: 100%;
+  border-radius: 8px;
+  height: 250px;
+}
+@media (max-width: 576px) {
+  .each {
+    width: 90%;
+  }
+  .eachBlogHeading {
+    font-size: 20px;
+  }
+}
